@@ -2,11 +2,16 @@
     margin: 0;
     padding: 0;
 }
-h1{
+.calculatrice{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.h1{
     color: red;
     text-align: center;
 }
-.calculatrice{
+.elements{
     display: flex;
     flex-direction: column;
     border: 2px solid black;
