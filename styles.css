@@ -16,7 +16,6 @@ h1{
 .elements{
     display: flex;
     flex-direction: column;
-    background-color: black;
     border-radius: 10px;
     width: 500px;
 }
