@@ -20,17 +20,26 @@ h1{
     width: 500px;
 }
 .resulte{
-    height: 100px;
+    height: 90px;
     text-align: right;
+    border: 2px solid black;
+    background-color: rgb(225, 255, 245);
+    margin-bottom: 10px;
 }
 .numbers button{
     width: 120px;
     height: 50px;
+    border-radius: 4px;
+    background-color: rgb(141, 237, 237);
+    margin-bottom: 3px;
+}
+.numbers #calcul{
+    background-color: rgb(191, 123, 255);
 }
 .characters{
     display: flex;
 }
-.Operations{
+.Operations button{
     width: 90px;
     height: 50px;
 }
