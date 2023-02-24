@@ -5,16 +5,33 @@
 .calculatrice{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    align-items: center;
 }
 h1{
     color: red;
     text-align: center;
+    padding-bottom: 30px;
+    padding-top: 15px;
 }
 .elements{
     display: flex;
     flex-direction: column;
-    border: 2px solid black;
+    background-color: black;
     border-radius: 10px;
     width: 500px;
+}
+.resulte{
+    height: 100px;
+    text-align: right;
+}
+.numbers button{
+    width: 120px;
+    height: 50px;
+}
+.characters{
+    display: flex;
+}
+.Operations{
+    width: 90px;
+    height: 50px;
 }
