@@ -7,7 +7,7 @@
     flex-direction: column;
     justify-content: center;
 }
-.h1{
+h1{
     color: red;
     text-align: center;
 }
@@ -16,6 +16,5 @@
     flex-direction: column;
     border: 2px solid black;
     border-radius: 10px;
-    width: 600px;
-    justify-content: center;
+    width: 500px;
 }
