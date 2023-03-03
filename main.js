@@ -1,26 +1,16 @@
-let a = 12;
-
-let b = 19;
-let test = [1,2,3]
-
-let list = [
-    {
-        nom : "ahmed",
-        age : 18,
-    } ,
-    {
-        nom : "ali",
-        age : 20,
-    } ,
-    {
-        nom : "moh",
-        age : 14,
-    } 
-]
-console.log(x)
-if(list[1].age > 18 ){
-    console.log("allowed");
-} 
-else{
-    console.log("not allowed");
+function Solve(val) {
+    var v = document.getElementById('res')
+    v.value += val;
+}
+function Result() {
+    var num2 = eval(document.getElementById('res').value);
+    document.getElementById('res').value = num2;
+}
+function Clear() {
+    var inp = document.getElementById('res');
+    inp.value ='';
+}
+function Back() {
+    var ev = document.getElementById('res');
+    ev.value = ev.value.slice(0,-1);
 }
