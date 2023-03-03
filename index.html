@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <script src="main.js"></script>
+ 
     <title>calculatrice</title>
 </head>
 <body>
@@ -17,32 +17,33 @@
           </div>
           <div class="Operations">
             <button id="slash"  onclick = "Solve('/')" >/</button>
-            <button id="fois" onclick = "Solve('x')" >x</button>
-            <button id="clean" onclick = "Solve()" >C</button>
-            <button id="percent" onclick = "Solve('%')" >%</button>
+            <button id="fois" onclick = "Solve('*')" >x</button>
+            <button id="clean" onclick = "Clear()" >C</button>
+            <button id="percent" onclick = "Back()" >%</button>
        </div>
           <div class="characters">
               
               <div class="numbers">
                       <button id="nine"  onclick = " Solve('9') " >9</button>
-                      <button id="eghit"  onclick= " solve('8') ">8</button>
-                      <button id="seven" onclick= " solve('7') ">7</button>
-                      <button id="six" onclick= " solve('6') ">6</button>
-                      <button id="five" onclick= " solve('5') ">5</button>
-                      <button id="four" onclick= " solve('4') ">4</button>
-                      <button id="three" onclick= " solve('3') ">3</button>
-                      <button id="two" onclick= " solve('2') ">2</button>
-                      <button id="one" onclick= " solve('1') ">1</button>
-                      <button id="zero" onclick= " solve('0') ">0</button>
-                      <button id="comma" onclick= " solve('.') ">.</button>
+                      <button id="eghit"  onclick= " Solve('8') ">8</button>
+                      <button id="seven" onclick= " Solve('7') ">7</button>
+                      <button id="six" onclick= " Solve('6') ">6</button>
+                      <button id="five" onclick= " Solve('5') ">5</button>
+                      <button id="four" onclick= " Solve('4') ">4</button>
+                      <button id="three" onclick= " Solve('3') ">3</button>
+                      <button id="two" onclick= " Solve('2') ">2</button>
+                      <button id="one" onclick= " Solve('1') ">1</button>
+                      <button id="zero" onclick= " Solve('0') ">0</button>
+                      <button id="comma" onclick= " Solve('.') ">.</button>
               </div>
               <div class="Operations1">
                       <button id="moin" onclick = " Solve('-') " >-</button>
                       <button id="plus" onclick = " Solve('+') " >+</button>
-                      <button id="egal" onclick = " Solve() " >=</button>
+                      <button id="egal" onclick = " Result() " >=</button>
               </div>
           </div>
       </div>
     </div>
+    <script async src="main.js"></script>
 </body>
 </html>
